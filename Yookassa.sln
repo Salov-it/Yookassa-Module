@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yookassa.Application", "Yookassa\Yookassa.Application.csproj", "{7EF16787-ABD0-4B60-961C-7BEB93D66C85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{6AD3DFD7-33D4-43AD-B719-41A278CA9BFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{9F7553D9-D5D4-4A7F-B5B2-64031FE4AEB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yookassa.Domain", "Yookassa.Domain\Yookassa.Domain.csproj", "{3322ACEF-16B6-4F29-9150-CBB474FDE192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF16787-ABD0-4B60-961C-7BEB93D66C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF16787-ABD0-4B60-961C-7BEB93D66C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF16787-ABD0-4B60-961C-7BEB93D66C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF16787-ABD0-4B60-961C-7BEB93D66C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7553D9-D5D4-4A7F-B5B2-64031FE4AEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7553D9-D5D4-4A7F-B5B2-64031FE4AEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7553D9-D5D4-4A7F-B5B2-64031FE4AEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7553D9-D5D4-4A7F-B5B2-64031FE4AEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3322ACEF-16B6-4F29-9150-CBB474FDE192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3322ACEF-16B6-4F29-9150-CBB474FDE192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3322ACEF-16B6-4F29-9150-CBB474FDE192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3322ACEF-16B6-4F29-9150-CBB474FDE192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F7553D9-D5D4-4A7F-B5B2-64031FE4AEB5} = {6AD3DFD7-33D4-43AD-B719-41A278CA9BFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C8EB109-3583-4043-B2BF-E493AADF135B}
+	EndGlobalSection
+EndGlobal

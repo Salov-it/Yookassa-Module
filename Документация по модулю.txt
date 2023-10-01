@@ -1,0 +1,28 @@
+Привет  сейчас расскажу как пользоваться
+модулем.
+
+В Сonfig укажи свои параметры магазина shopId и секретный ключ
+
+для Post запросов передаем данные в json формате
+
+--метод создать платеж PostCreatePaymentCommand
+
+--метод создание платежа с чеком PostCreatePaymentCheckCommand
+
+
+--Отмена платежа CancellationPaymentCommand
+
+
+--Возврат денег PostRefundCommand
+
+что бы вернуть все деньги 
+
+   string amount  указать всю сумму денег
+
+   что бы вернуть часть какую то денег все тоже самое только укажите ее в amount.
+
+--Списать все деньги PostWriteEverythingOffCommand
+
+--Списать определеную часть денег PostWriteoffPartCommand
+
+--Cоздать чек PostCreateReceiptOnPaymentCommand
